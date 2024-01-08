@@ -1,6 +1,6 @@
 import { postRouter } from "~/server/api/routers/post";
 import { createTRPCRouter } from "~/server/api/trpc";
-import {appRouterEdge} from "./edge/root-edge";
+import {appRouterEdge} from "./edge/edge-router-root";
 
 
 export const nonEdgeRoutes = {

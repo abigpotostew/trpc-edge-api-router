@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
-import {publicProcedureDb} from "../middleware/db";
+import {publicProcedureDb} from "../middleware/db-context";
 
 export const postRouter = createTRPCRouter({
   hello: publicProcedureDb

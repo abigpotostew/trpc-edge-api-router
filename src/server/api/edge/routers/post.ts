@@ -1,5 +1,5 @@
 import {createTRPCRouter} from "~/server/api/trpc";
-import {publicProcedureDbEdge} from "../../middleware/db-edge";
+import {publicProcedureDbEdge} from "../../middleware/db-edge-context";
 import {z} from "zod";
 
 export const postRouterEdge = createTRPCRouter({
